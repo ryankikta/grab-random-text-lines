@@ -1,6 +1,6 @@
 function atlas() {
         $loc = get_template_directory();
-        $fpth = "includes/atlasShrugged.txt"; 
+        $fpth = "atlasShrugged.txt"; 
         $lines = file($loc ."/". $fpth);
         Shuffle($lines);
         Echo "<p>";
